@@ -36,10 +36,10 @@ by running ~make help~. There are a few prerequisites for a successful
 PDF compilation.
 
 1. Most ~.sty~ files need to be installed manually with ~make
-   sty~. This needs the be run only once, but must be run before
+   sty~. This needs to be run only once, but must be run before
    ~make~. 
 2. A ~hwthesis~ ~org-latex-classes~ entry needs to be added to the
-   user initialisation. The following org-model setup is needed
+   user initialisation. The following org-mode setup is needed
    alongside the ~hwthesis.cls~ file. This is usually added to
    ~$HOME/.emacs~ or can be embedded in to the ~thesis.org~ file in an
    ~eval~ region.
