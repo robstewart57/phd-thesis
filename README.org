@@ -1,9 +1,8 @@
-
 *** Repository Contributions
 
-This repository contains the sources for the PhD thesis /Reliable
+This repository contains the sources for the PhD thesis "Reliable
 Massively Parallel Symbolic Computing: Fault Tolerance for a
-Distributed Haskell/, authored by Robert Stewart. The thesis is
+Distributed Haskell", authored by Robert Stewart. The thesis is
 written with emacs [[http://orgmode.org/][org-mode]]. The file ~thesis.org~ is compiled to
 LaTeX, which is compiled to a PDF. The repository is organised as
 follows:
@@ -119,5 +118,5 @@ failure, terminating with the expected results.
 
 Feel free to contact the author with feedback.
 
-- Email :: R.Stewart@hw.ac.uk
-- WWW :: [[http://www.macs.hw.ac.uk/~rs46/][http://www.macs.hw.ac.uk/~rs46/]]
+- *Email* R.Stewart@hw.ac.uk
+- *WWW* [[http://www.macs.hw.ac.uk/~rs46/]]
