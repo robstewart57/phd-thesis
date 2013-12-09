@@ -1,0 +1,12 @@
+
+set terminal postscript 
+set output "| ps2pdf - sumLiouville-runtimes-nofailures.pdf" 
+set key font ",18"
+set xrange [90000000:1010000000] 
+set xtics font "Times-Roman, 20" 
+set ytics font "Times-Roman, 25" 
+set title "Runtime Performance of Summatory Lioville" font "Helvetica, 25"
+set xlabel "SummatoryLiouville(n)"  font "Helvetica, 25"
+set ylabel "Runtime (seconds)"  font "Helvetica, 25"
+
+plot 'ft/results_ft.dat' using 1:2:3:4 notitle with yerrorbars, 'ft/results_ft.dat' title "Using supervision" with lines linetype -1, 'not_ft/results_not_ft.dat' using 1:2:3:4 notitle with yerrorbars, 'not_ft/results_not_ft.dat' title "No supervision" with lines linetype 2

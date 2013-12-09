@@ -1,0 +1,4 @@
+BEG_G {
+  fname = sprintf("%s.dot",$G.name);
+  writeG($G, fname);
+}

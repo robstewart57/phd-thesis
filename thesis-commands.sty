@@ -1,0 +1,481 @@
+% Haskell Listings
+\usepackage{listings}
+\usepackage{color}
+\usepackage{pifont}
+\usepackage{float}
+\usepackage{caption}
+\usepackage[noend]{algpseudocode}
+\usepackage[mathscr]{euscript}
+% find color definitions on http://en.wikibooks.org/wiki/LaTeX/Colors
+\usepackage[usenames,dvipsnames]{xcolor} 
+%\usepackage{xcolor} 
+%\usepackage{textcomp}
+\usepackage{theorem}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+
+% hilight
+\definecolor{light-gray}{gray}{0.90}
+\newcommand{\hilightgray}[1]{\colorbox{light-gray}{#1}}
+
+% make sure code is on one page
+\floatstyle{plain} % optionally change the style of the new float
+\newfloat{Code}{h!}{myc}
+
+% ticks and crosses in table cells
+\newcommand{\tick}{\ding{52}} 
+\newcommand{\cross}{\ding{55}} 
+
+\lstloadlanguages{Haskell,Erlang,Promela}
+
+\lstnewenvironment{haskellcode}[2]
+{
+%     {\lstset{}%
+%       \csname lst@SetFirstLabel\endcsname}
+%     {\csname lst@SaveFirstLabel\endcsname}
+    \singlespacing
+    \lstset{
+      language=Haskell,
+      caption=#1,
+      label=#2,
+      captionpos=b,
+      basicstyle=\footnotesize\ttfamily,
+      flexiblecolumns=false,
+      basewidth={0.5em,0.45em},
+      numbers=left,
+      escapeinside={@}{@},
+      literate={+}{{$+$}}1 {/}{{$/$}}1 {*}{{$*$}}1 {=}{{$=$}}1
+               {>}{{$>$}}1 {<}{{$<$}}1 {\\}{{$\lambda$}}1
+               {\\\\}{{\char`\\\char`\\}}1
+               {->}{{$\rightarrow$}}2 {>=}{{$\geq$}}2 {<-}{{$\leftarrow$}}2
+               {<=}{{$\leq$}}2 {=>}{{$\Rightarrow$}}2 
+               {\ .}{{$\circ$}}2 {\ .\ }{{$\circ$}}2
+               {>>}{{>>}}2 {>>=}{{>>=}}2 {=<<}{{=<<}}2  {<=<}{{<=<}}2
+               {|}{{$\mid$}}1       
+    }}
+{}
+
+\lstnewenvironment{haskellcodebare}[1]
+{
+%     {\lstset{}%
+%       \csname lst@SetFirstLabel\endcsname}
+%     {\csname lst@SaveFirstLabel\endcsname}
+    \singlespacing
+    \lstset{
+      #1,
+      captionpos=b,
+      language=Haskell,
+      basicstyle=\footnotesize\ttfamily,
+      flexiblecolumns=false,
+      basewidth={0.5em,0.45em},
+      numbers=left,
+      escapeinside={@}{@},
+      literate={+}{{$+$}}1 {/}{{$/$}}1 {*}{{$*$}}1 {=}{{$=$}}1
+               {>}{{$>$}}1 {<}{{$<$}}1 {\\}{{$\lambda$}}1
+               {\\\\}{{\char`\\\char`\\}}1
+               {->}{{$\rightarrow$}}2 {>=}{{$\geq$}}2 {<-}{{$\leftarrow$}}2
+               {<=}{{$\leq$}}2 {=>}{{$\Rightarrow$}}2 
+               {\ .}{{$\circ$}}2 {\ .\ }{{$\circ$}}2
+               {>>}{{>>}}2 {>>=}{{>>=}}2 {<=<}{{<=<}}2
+               {|}{{$\mid$}}1       
+    }
+    \csname\@lst @SetFirstNumber\endcsname
+}{
+  \csname \@lst @SaveFirstNumber\endcsname
+}
+
+
+\lstnewenvironment{erlangcode}[2]
+{
+%     {\lstset{}%
+%       \csname lst@SetFirstLabel\endcsname}
+%     {\csname lst@SaveFirstLabel\endcsname}
+    \singlespacing
+    % \definecolor{listinggray}{gray}{0.9}
+    % \definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+    \lstset{
+    language=Erlang,
+    caption=#1,
+    label=#2,
+    numbers=left,
+    escapeinside={@}{@},
+    % backgroundcolor=\color{lbcolor},
+    tabsize=2,
+    rulecolor=,
+    % basicstyle=\small,
+    basicstyle=\footnotesize\ttfamily,
+    upquote=true,
+    aboveskip={1.5\baselineskip},
+    columns=fixed,
+    showstringspaces=false,
+    extendedchars=true,
+    breaklines=true,
+    prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+    % frame=single,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    identifierstyle=\ttfamily,
+    % keywordstyle=\color{Purple},
+    % identifierstyle=\color{Black},
+    % commentstyle=\color{BrickRed},
+    % stringstyle=\color{RubineRed},
+    captionpos=b,
+    }}
+{}
+
+\lstnewenvironment{promelacode}[2]
+{
+    \singlespacing
+    \lstset{
+      language=Promela,
+      caption=#1,
+      label=#2,
+      captionpos=b,
+      basicstyle=\scriptsize\ttfamily,
+      flexiblecolumns=false,
+      basewidth={0.5em,0.45em},
+      numbers=left,
+      escapeinside={@}{@},
+      literate={->}{{$\rightarrow$}}2 {=}{{$=$}}1
+      }}
+{}
+
+\lstnewenvironment{shellcode}[2]
+{
+    \singlespacing
+    \lstset{
+      language=sh,
+      caption=#1,
+      label=#2,
+      captionpos=b,
+      basicstyle=\small\ttfamily,
+      flexiblecolumns=false,
+      basewidth={0.5em,0.45em},
+      numbers=left,
+      escapeinside={@}{@}
+      }}
+{}
+
+
+% strikethrough thickness
+\renewcommand{\ULthickness}{0.1pt}
+
+% layout commands
+\frenchspacing
+\pagestyle{plain}
+\setlength{\parskip}{0pt}
+
+% theorem-like environments
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\theoremstyle{definition}
+\newtheorem{dfn}{Definition}
+\newtheorem{xmpl}{Example}
+
+% abbreviations
+\newcommand{\ie}{i.\,e.,\xspace}
+\newcommand{\Ie}{I.\,e.,\xspace}
+\newcommand{\eg}{e.\,g.,\xspace}
+\newcommand{\Eg}{E.\,g.,\xspace}
+\newcommand{\cf}{cf.\xspace}
+\newcommand{\Cf}{Cf.\xspace}
+\newcommand{\wrt}{w.\,r.\,t.\xspace}
+\newcommand{\Wrt}{W.\,r.\,t.\xspace}
+\newcommand{\wlg}{w.\,l.\,o.\,g.\xspace}
+\newcommand{\Wlg}{W.\,l.\,o.\,g.\xspace}
+\newcommand{\resp}{resp.\xspace}
+
+%% HdpH syntax; types
+\newcommand{\hasType}{\mathbin{::}}
+\newcommand{\Unit}{\texttt{()}}
+\newcommand{\Int}{\texttt{Int}}
+\newcommand{\Bool}{\texttt{Bool}}
+\newcommand{\Dist}{\texttt{Dist}}
+\newcommand{\PE}{\texttt{PE}}
+\newcommand{\Node}{\texttt{Node}}
+\newcommand{\Par}{\texttt{Par}}
+\newcommand{\GIVar}{\texttt{GIVar}}
+
+%% HdpH syntax; terms
+\newcommand{\error}{\textbf{Error}}
+\newcommand{\letrec}[2]{\textbf{let}~{#1}~\textbf{in}~{#2}}
+\newcommand{\fun}{\mathord{\lambda}}
+\newcommand{\fix}{\mathop{\textbf{fix}}}
+\newcommand{\unit}{\texttt{()}}
+\newcommand{\false}{\texttt{False}}
+\newcommand{\true}{\texttt{True}}
+\newcommand{\nodeOf}{\texttt{nodeOf}}
+\newcommand{\dist}{\texttt{dist}}
+\newcommand{\ret}{\texttt{return}}
+\newcommand{\bind}{\mathbin{\texttt{>>=}}}
+\newcommand{\eval}{\texttt{eval}}
+\newcommand{\equiDist}{\texttt{equiDist}}
+\newcommand{\spawn}{\texttt{spawn}}
+\newcommand{\supervisedSpawn}{\texttt{supervisedSpawn}}
+\newcommand{\spawnAt}{\texttt{spawnAt}}
+\newcommand{\supervisedSpawnAt}{\texttt{supervisedSpawnAt}}
+\newcommand{\spark}{\texttt{spark}}
+\newcommand{\supervisedSpark}{\texttt{supervisedSpark}}
+\newcommand{\pushTo}{\texttt{pushTo}}
+\newcommand{\supervisedPushTo}{\texttt{supervisedPushTo}}
+\newcommand{\recoverSpark}{\texttt{recoverSpark}}
+\newcommand{\recoverThread}{\texttt{recoverThread}}
+\newcommand{\recoverFuture}{\texttt{recoverFuture}}
+\newcommand{\new}{\texttt{new}}
+\newcommand{\at}{\texttt{at}}
+\newcommand{\rputi}{\texttt{rput}}
+\newcommand{\probe}{\texttt{probe}}
+\newcommand{\get}{\texttt{get}}
+
+%% HdpH syntax; states
+\newcommand{\p}{\mathbin{|}}
+
+%% HdpH syntax; evaluation contexts
+\newcommand{\E}{\mathord{\mathcal{E}}}
+
+%% HdpH syntax; evaluation redexes
+\newcommand{\R}{\mathord{\mathcal{R}}}
+
+%% semantics symbols
+\newcommand{\names}{\mathcal{N}}
+\newcommand{\dom}{\mathit{labels}}
+\newcommand{\domfailed}{\mathit{deadNodes}}
+\newcommand{\llangle}{\langle\!\langle}
+\newcommand{\rrangle}{\rangle\!\rangle}
+\newcommand{\bnfdef}{\mathrel{::=}}
+\newcommand{\union}{\mathbin{\cup}}
+\newcommand{\inter}{\mathbin{\cap}}
+\newcommand{\DIST}{\mathit{Dist}}
+\newcommand{\pe}{\mathit{PE}}
+\newcommand{\Tpe}{\mathcal{}}
+\newcommand{\nodeq}{\sim}
+\newcommand{\node}[1]{[{#1}]_{\nodeq}}
+\newcommand{\set}[1]{\{{#1}\}}
+\newcommand{\tup}[1]{\langle{#1}\rangle}
+\newcommand{\subst}[2]{[{#1}\mathbin{:=}{#2}]}
+\newcommand{\substt}[4]{[{#1}\mathbin{:=}{#2},{#3}\mathbin{:=}{#4}]}
+\newcommand{\fv}{\mathord{\mathit{fv}}}  %% free variables (not \lambda bound)
+\newcommand{\fn}{\mathord{\mathit{fn}}}  %% free IVar names (not \nu bound)
+\newcommand{\thr}[2]{\langle{#1}\rangle_{#2}}
+% \newcommand{\supthr}[2]{\langle{#1}\rangle_{#2}^{S}}
+\newcommand{\spk}[2]{\llangle{#1}\rrangle_{#2}}
+\newcommand{\supspk}[2]{\llangle{#1}\rrangle_{#2}^{\mathscr{S}}}
+\newcommand{\gv}[2]{\{{#1}\}_{#2}}
+\newcommand{\bg}{\mathrel{\Downarrow}}  %% big-step semantics on terms
+\newcommand{\sm}[1]{\mathrel{\to_{#1}}} %% small-step semantics on states
+
+% labels in algorithmic environments
+\renewcommand{\algorithmicrequire}{\textbf{PreCondition:}}
+\renewcommand{\algorithmicensure}{\textbf{PostCondition:}}
+
+
+% LTL grammar
+\newenvironment{BNF}
+  {\captionsetup{type=lstlisting}}
+  {}
+
+% inline comments
+\newcommand{\comment}[2]{\(\spadesuit\){\bf #1: }{\rm \sf #2}\(\spadesuit\)}
+\newcommand{\rscomment}[1]{\comment{RS}{#1}}
+
+% light gray lstlisting highlighting
+\definecolor{light-gray}{gray}{0.6}
+
+
+\tikzstyle{every picture}+=[remember picture]
+\tikzstyle{na} = [baseline=-.5ex]
+
+%\begin{itemize}
+%    \item Coriolis acceleration
+%        \tikz[na] \node[coordinate] (n1) {};
+%\end{itemize}
+
+\def\ivarNode{
+         \tikz[baseline]{
+             \node[fill=white,anchor=base,inner sep=0cm] (t2)
+             {$n$};
+         }
+}
+
+\def\taskLocation{
+         \tikz[baseline]{
+             \node[fill=white,anchor=base,inner sep=0cm] (taskLocationSymb)
+             {$n'$};
+         }
+}
+
+\def\ivarLocation{
+         \tikz[baseline]{
+             \node[fill=white,anchor=base,inner sep=0cm] (ivarLocationSymb)
+             {$n$};
+         }
+}
+
+\def\taskReplica{
+         \tikz[baseline]{
+             \node[fill=white,anchor=base,inner sep=0cm] (taskReplicaSymb)
+             {$j$};
+         }
+}
+
+\def\taskScheduling{
+         \tikz[baseline]{
+             \node[fill=white,anchor=base,inner sep=0cm] (taskSchedulingSymb)
+             {$\llangle$};
+         }
+}
+
+\def\taskM{
+         \tikz[baseline]{
+             \node[fill=white,anchor=base,inner sep=0cm] (taskMSymb)
+             {$M$};
+         }
+}
+
+\def\ivarSlot{
+         \tikz[baseline]{
+             \node[fill=white,anchor=base,inner sep=0cm] (ivarSlotSymb)
+             {$i$};
+         }
+}
+\def\supervisedS{
+         \tikz[baseline]{
+             \node[fill=white,anchor=base,inner sep=0cm] (supervisedSymb)
+             {$\mathscr{S}$};
+         }
+}
+
+
+
+\def\taskLocationCode{\tikz[remember picture] \node[fill=white] (taskLocationCodeP) {};}
+\def\taskCode{\tikz[remember picture] \node[fill=white] (taskCodeP)
+  {};}
+\def\taskReplicaCode{\tikz[remember picture] \node[fill=white] (taskReplicaCodeP) {};}
+\def\taskSchedulingCode{\tikz[remember picture] \node[fill=white]
+  (taskSchedulingCodeP) {};}
+\def\taskMCode{\tikz[remember picture] \node[fill=white] (taskMCodeP)
+  {};}
+\def\ivarAtCode{\tikz[remember picture] \node[fill=white,inner sep=0cm] (ivarAtCodeP) {at};}
+\def\grefCode{\tikz[remember picture] \node[fill=white,inner sep=0cm] (grefCodeP) {GRef};}
+\def\justCode{\tikz[remember picture] \node[fill=white,inner sep=0cm] (justCodeP) {\emph{Just}};}
+
+\tikzset{
+  comment/.style={
+    draw,
+    fill=gray!10,
+    text=black,
+    rounded corners,
+    drop shadow,
+    align=left,
+    font=\footnotesize,
+  },
+}
+
+\usepackage{eso-pic}
+\usepackage[calc]{picture}
+\newcommand{\addstufftoforegroundall}[1]{%
+  \AddToShipoutPictureFG{% Add <stuff> to all following pages' foreground
+    \put(0,\paperheight){\vtop{{\null}\makebox[0pt][l]{#1}}}%
+  }%
+}%
+\newcommand{\addstufftoforegroundthis}[1]{%
+  \AddToShipoutPictureFG*{% Add <stuff> to the current page foreground
+    \put(0,\paperheight){\vtop{{\null}\makebox[0pt][l]{#1}}}%
+  }%
+}%
+
+\setcounter{errorcontextlines}{\maxdimen}
+
+
+\makeatletter
+\def\getpicturepage#1{%
+  \@nameuse{save@pg@\@nameuse{save@pt@#1}}%
+}
+
+\newcommand*{\iftikzmarkcurrentpage}[3]{%
+    \iftikzmark{#1}{%
+        \ifcsname save@pg@\@nameuse{save@pt@#1}\endcsname
+            \expandafter\ifnum\getpicturepage{#1}=\the\c@page\relax
+                #2%
+            \else
+                #3%
+            \fi
+        \else
+            #3%
+        \fi
+    }{%
+        #3
+    }%
+}
+
+\newcommand*{\appendhookorcreatenew}[2]{%#1<- hook csname, #2<- code to add
+    % note: code in #2 is not expanded at this stage!
+    \ifcsname #1\endcsname
+        \expandafter\g@addto@macro\csname #1\endcsname{\unexpanded{#2}}%
+    \else
+        \@namedef{#1}{\unexpanded{#2}}%
+    \fi
+}
+\newcommand*{\deferlinecode}[3]{% #1<-listing name, #2<-line number, #3<-code
+    \appendhookorcreatenew{listings-deferline-#1-#2}{#3}%
+}
+\newcommand*{\atEOLcode}[3]{% #1<-listing name, #2<-line number, #3<-code
+    \appendhookorcreatenew{listings-eol-execute-#1-#2}{#3}%
+}
+\newcommand*{\commenton}[4][comment,thin]{% #1<- node keys, #2<- listing name, #3<- line number, #4<- comment text
+    \deferlinecode{#2}{#3}{\tikz[overlay,remember picture] \draw[,>=stealth',<-,ultra thick] (pic cs:line-#2-#3-end) +(1em,.7ex) -| ($(node cs:name=current page,anchor=north east)!(pic cs:line-#2-#3-end)!(node cs:name=current page,anchor=south east) +(-5cm,0cm)$) node[#1] {#4};}%
+}
+
+\lst@AddToHook{EOL}{%
+    \begingroup
+    \ifcsname listings-deferline-\lst@name-\the\c@lstnumber\endcsname
+        \iftikzmarkcurrentpage{line-\lst@name-\the\c@lstnumber-end}{%
+            \let\addstufftoforeground\addstufftoforegroundthis
+        }{%
+            \let\addstufftoforeground\addstufftoforegroundall
+        }%
+        \edef\pagehookstuff{%
+            \noexpand\addstufftoforeground{%
+                \noexpand\iftikzmarkcurrentpage{line-\lst@name-\the\c@lstnumber-end}{%
+                    \@nameuse{listings-deferline-\lst@name-\the\c@lstnumber}%
+                }{}%
+            }%
+        }%
+        \global\expandafter\let\csname listings-deferline-\lst@name-\the\c@lstnumber\endcsname\@undefined
+        \pagehookstuff
+    \fi
+    \ifcsname listings-eol-execute-\lst@name-\the\c@lstnumber\endcsname
+        \@nameuse{listings-eol-execute-\lst@name-\the\c@lstnumber}%
+    \fi
+    \endgroup
+}
+
+
+\commenton[comment,thin,text width=5.5cm]{annotatedpromela}{1}{User
+  defined data types.}
+\commenton[comment,thin,text width=5.3cm]{annotatedpromela}{6}{Declaring
+\& initialising message passing channel with a buffer capacity for 10 messages.}
+% \atEOLcode{annotatedpromela}{6}{\vspace{2ex}}
+\commenton[comment,thin,text width=5.5cm]{annotatedpromela}{10}{Stylized
+  version of a macro.}
+\commenton[comment,thin,text width=5.5cm]{annotatedpromela}{13}{Instantiate initial Supervisor process.}
+\commenton[comment,thin,text
+width=5.3cm]{annotatedpromela}{18}{If more than one guard statement is executable, one of them will be selected non-deterministically.}
+\commenton[comment,thin,text
+width=5.6cm]{annotatedpromela}{25}{Code fragment executed indivisibly.}
+
+
+
+
+%% \lstset{
+%%     language={[LaTeX]TeX},
+%%     numbers=left,
+%%     breaklines=true,
+%%     basicstyle=\small\ttfamily,
+%%     columns=flexible,
+%% }

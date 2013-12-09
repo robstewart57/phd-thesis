@@ -1,0 +1,47 @@
+$ # using new-ivar-representation on 25.07.2013
+$ ~/sw/cloc/cloc-1.58.pl Control/
+      25 text files.
+      25 unique files.                              
+       2 files ignored.
+
+http://cloc.sourceforge.net v 1.58  T=0.5 s (46.0 files/s, 13052.0 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Haskell                         23           1131           1709           3686
+-------------------------------------------------------------------------------
+SUM:                            23           1131           1709           3686
+-------------------------------------------------------------------------------
+
+$ # using release-0.0 on 25.07.2013
+
+$ ~/sw/cloc/cloc-1.58.pl Control/
+      22 text files.
+      22 unique files.                              
+       2 files ignored.
+
+http://cloc.sourceforge.net v 1.58  T=1.0 s (20.0 files/s, 4337.0 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Haskell                         20            840           1082           2415
+-------------------------------------------------------------------------------
+SUM:                            20            840           1082           2415
+-------------------------------------------------------------------------------
+
+# Module added: FTStrategies.hs
+# Modules changed:
+# Conf
+# HdpH
+# Strategies
+# Gref
+# Comm
+# IVar
+# Sparkpool
+# Threadpool
+# Location
+# State.GRef
+# State.Location
+# Type.Gref
+# Type.Location
+# Type.Par

@@ -1,0 +1,282 @@
+
+Chaos monkey deaths at (seconds): [3,8,9,10,17,45,49,51,57]
+kamikaze 137.195.143.125:30075:0
+replicating sparks: 1
+kamikaze 137.195.143.125:12516:0
+replicating sparks: 1
+kamikaze 137.195.143.125:39832:0
+replicating sparks: 1
+kamikaze 137.195.143.125:16779:0
+replicating sparks: 1
+kamikaze 137.195.143.125:8123:0
+replicating sparks: 1
+kamikaze 137.195.143.125:11704:0
+replicating sparks: 1
+kamikaze 137.195.143.125:32311:0
+replicating sparks: 1
+kamikaze 137.195.143.125:22023:0
+replicating sparks: 1
+sumeuler-parDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parDnCFT: 52.07
+Chaos monkey deaths at (seconds): [1,30,32,33,48,50]
+kamikaze 137.195.143.125:34404:0
+replicating sparks: 1
+kamikaze 137.195.143.125:32919:0
+replicating sparks: 1
+kamikaze 137.195.143.125:30041:0
+replicating sparks: 1
+kamikaze 137.195.143.125:36097:0
+replicating sparks: 1
+kamikaze 137.195.143.125:17572:0
+replicating sparks: 1
+sumeuler-parDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parDnCFT: 49.43
+Chaos monkey deaths at (seconds): [8,15]
+kamikaze 137.195.143.125:37378:0
+replicating sparks: 1
+kamikaze 137.195.143.125:31273:0
+replicating sparks: 1
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-parDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parDnCFT: 53.26
+Chaos monkey deaths at (seconds): [20,40,56]
+kamikaze 137.195.143.125:39371:0
+replicating sparks: 1
+kamikaze 137.195.143.125:23185:0
+replicating sparks: 1
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-parDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parDnCFT: 49.85
+Chaos monkey deaths at (seconds): []
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-parDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+parDnCFT: 52.79
+Chaos monkey deaths at (seconds): [14,33]
+kamikaze 137.195.143.125:37275:0
+replicating threads: 606
+replicating threads: 417
+replicating threads: 435
+replicating threads: 499
+replicating threads: 483
+replicating threads: 454
+replicating threads: 482
+replicating threads: 465
+replicating threads: 528
+kamikaze 137.195.143.125:13367:0
+replicating threads: 37
+replicating threads: 63
+replicating threads: 70
+replicating threads: 82
+replicating threads: 77
+replicating threads: 118
+replicating threads: 103
+replicating threads: 176
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-pushDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushDnCFT: 57.11
+Chaos monkey deaths at (seconds): [3,15,15,23,24,28,32,48]
+kamikaze 137.195.143.125:39806:0
+replicating threads: 589
+replicating threads: 569
+replicating threads: 602
+kamikaze 137.195.143.125:37581:0
+kamikaze 137.195.143.125:21997:0
+replicating threads: 617
+replicating threads: 603
+replicating threads: 604
+replicating threads: 558
+replicating threads: 688
+replicating threads: 718
+kamikaze 137.195.143.125:37734:0
+kamikaze 137.195.143.125:37902:0
+replicating threads: 561
+replicating threads: 528
+replicating threads: 670
+replicating threads: 567
+replicating threads: 572
+replicating threads: 637
+replicating threads: 608
+kamikaze 137.195.143.125:21019:0
+replicating threads: 689
+replicating threads: 752
+kamikaze 137.195.143.125:24532:0
+replicating threads: 783
+replicating threads: 1355
+replicating threads: 807
+replicating threads: 1072
+replicating threads: 981
+replicating threads: 1880
+replicating threads: 1778
+replicating threads: 2268
+kamikaze 137.195.143.125:35678:0
+replicating threads: 3155
+replicating threads: 6672
+replicating threads: 8813
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-pushDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushDnCFT: 649.47
+Chaos monkey deaths at (seconds): [5,8,26,41,42,42,59]
+kamikaze 137.195.143.125:9916:0
+kamikaze 137.195.143.125:9008:0
+replicating threads: 667
+replicating threads: 766
+replicating threads: 554
+replicating threads: 602
+replicating threads: 651
+replicating threads: 653
+replicating threads: 687
+replicating threads: 671
+replicating threads: 654
+replicating threads: 541
+kamikaze 137.195.143.125:14363:0
+replicating threads: 570
+replicating threads: 602
+replicating threads: 671
+replicating threads: 475
+replicating threads: 730
+replicating threads: 651
+replicating threads: 482
+replicating threads: 472
+replicating threads: 541
+replicating threads: 593
+replicating threads: 569
+replicating threads: 562
+kamikaze 137.195.143.125:23328:0
+kamikaze 137.195.143.125:22740:0
+kamikaze 137.195.143.125:11118:0
+replicating threads: 415
+replicating threads: 395
+replicating threads: 463
+replicating threads: 514
+replicating threads: 1077
+replicating threads: 1147
+replicating threads: 1228
+replicating threads: 1283
+replicating threads: 1418
+replicating threads: 1470
+replicating threads: 1447
+replicating threads: 1455
+kamikaze 137.195.143.125:9842:0
+replicating threads: 2974
+replicating threads: 3025
+replicating threads: 3212
+sumeuler-pushDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushDnCFT: 354.86
+Chaos monkey deaths at (seconds): [0,5,8,10,14,28,31,51,54]
+kamikaze 137.195.143.125:9332:0
+replicating threads: 2
+kamikaze 137.195.143.125:23556:0
+kamikaze 137.195.143.125:16010:0
+kamikaze 137.195.143.125:31913:0
+replicating threads: 817
+kamikaze 137.195.143.125:15796:0
+replicating threads: 875
+replicating threads: 867
+replicating threads: 817
+replicating threads: 888
+replicating threads: 774
+replicating threads: 858
+replicating threads: 819
+replicating threads: 764
+replicating threads: 668
+replicating threads: 840
+replicating threads: 824
+replicating threads: 695
+replicating threads: 799
+replicating threads: 810
+replicating threads: 1023
+kamikaze 137.195.143.125:16787:0
+replicating threads: 1019
+replicating threads: 1054
+replicating threads: 1051
+kamikaze 137.195.143.125:30072:0
+replicating threads: 1105
+replicating threads: 1680
+replicating threads: 1798
+replicating threads: 1807
+kamikaze 137.195.143.125:14943:0
+kamikaze 137.195.143.125:9488:0
+replicating threads: 3069
+replicating threads: 6906
+sumeuler-pushDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushDnCFT: 276.93
+Chaos monkey deaths at (seconds): [31,31,58,60]
+kamikaze 137.195.143.125:8710:0
+kamikaze 137.195.143.125:21086:0
+replicating threads: 2
+replicating threads: 4
+replicating threads: 3
+replicating threads: 2
+replicating threads: 2
+replicating threads: 3
+replicating threads: 8
+replicating threads: 5
+replicating threads: 8
+replicating threads: 29
+replicating threads: 5
+replicating threads: 3
+replicating threads: 10
+replicating threads: 20
+replicating threads: 3
+replicating threads: 6
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-pushDnCFT result: 365596
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushDnCFT: 47.75

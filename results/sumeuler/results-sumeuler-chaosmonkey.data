@@ -1,0 +1,204 @@
+
+Chaos monkey deaths at (seconds): [6,30,39,49,50]
+kamikaze 137.195.143.125:8374:0
+replicating sparks: 2
+kamikaze 137.195.143.125:30236:0
+replicating sparks: 2
+kamikaze 137.195.143.125:29396:0
+replicating sparks: 2
+kamikaze 137.195.143.125:27358:0
+replicating sparks: 2
+kamikaze 137.195.143.125:37390:0
+replicating sparks: 2
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-parMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 181.10
+Chaos monkey deaths at (seconds): [5,11,18,27,28,33,44,60]
+kamikaze 137.195.143.125:39160:0
+replicating sparks: 2
+kamikaze 137.195.143.125:34225:0
+replicating sparks: 2
+kamikaze 137.195.143.125:19991:0
+replicating sparks: 2
+kamikaze 137.195.143.125:9019:0
+replicating sparks: 2
+kamikaze 137.195.143.125:18446:0
+replicating sparks: 2
+kamikaze 137.195.143.125:15627:0
+replicating sparks: 2
+kamikaze 137.195.143.125:20129:0
+replicating sparks: 2
+kamikaze 137.195.143.125:17555:0
+replicating sparks: 2
+sumeuler-parMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 410.17
+Chaos monkey deaths at (seconds): [31,36,49]
+kamikaze 137.195.143.125:25799:0
+replicating sparks: 2
+kamikaze 137.195.143.125:31041:0
+replicating sparks: 2
+kamikaze 137.195.143.125:20572:0
+replicating sparks: 2
+sumeuler-parMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 139.69
+Chaos monkey deaths at (seconds): [37,48,59]
+kamikaze 137.195.143.125:29458:0
+replicating sparks: 2
+kamikaze 137.195.143.125:39405:0
+replicating sparks: 2
+kamikaze 137.195.143.125:32466:0
+replicating sparks: 2
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-parMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 139.52
+Chaos monkey deaths at (seconds): [1,17,24,27,43,44,47,48,48]
+kamikaze 137.195.143.125:23744:0
+replicating sparks: 1
+kamikaze 137.195.143.125:20063:0
+replicating sparks: 2
+kamikaze 137.195.143.125:13622:0
+replicating sparks: 2
+kamikaze 137.195.143.125:11025:0
+replicating sparks: 2
+kamikaze 137.195.143.125:8039:0
+replicating sparks: 2
+kamikaze 137.195.143.125:34468:0
+replicating sparks: 2
+kamikaze 137.195.143.125:18449:0
+replicating sparks: 2
+kamikaze 137.195.143.125:16543:0
+kamikaze 137.195.143.125:20329:0
+replicating sparks: 2
+replicating sparks: 2
+sumeuler-parMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 768.15
+Chaos monkey deaths at (seconds): [4,34,36,37,48,49,58]
+kamikaze 137.195.143.125:22509:0
+replicating threads: 111
+kamikaze 137.195.143.125:19381:0
+replicating threads: 97
+kamikaze 137.195.143.125:34613:0
+replicating threads: 95
+kamikaze 137.195.143.125:24402:0
+replicating threads: 95
+kamikaze 137.195.143.125:22638:0
+replicating threads: 90
+kamikaze 137.195.143.125:13932:0
+replicating threads: 88
+kamikaze 137.195.143.125:32411:0
+replicating threads: 85
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+sumeuler-pushMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 753.71
+Chaos monkey deaths at (seconds): [2,6,11,15,17,24,32,37,41]
+kamikaze 137.195.143.125:23296:0
+replicating threads: 111
+kamikaze 137.195.143.125:36347:0
+replicating threads: 109
+kamikaze 137.195.143.125:38330:0
+replicating threads: 107
+kamikaze 137.195.143.125:32792:0
+replicating threads: 105
+kamikaze 137.195.143.125:13097:0
+replicating threads: 103
+kamikaze 137.195.143.125:28266:0
+replicating threads: 101
+kamikaze 137.195.143.125:12197:0
+replicating threads: 97
+kamikaze 137.195.143.125:17577:0
+replicating threads: 92
+kamikaze 137.195.143.125:22942:0
+replicating threads: 90
+sumeuler-pushMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 1179.73
+Chaos monkey deaths at (seconds): [2,37,39,45,49]
+kamikaze 137.195.143.125:27813:0
+replicating threads: 111
+kamikaze 137.195.143.125:33146:0
+replicating threads: 96
+kamikaze 137.195.143.125:39818:0
+replicating threads: 96
+kamikaze 137.195.143.125:29201:0
+replicating threads: 90
+kamikaze 137.195.143.125:23371:0
+replicating threads: 88
+sumeuler-pushMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 563.97
+Chaos monkey deaths at (seconds): [4,7,23,32,34,46,54,60]
+kamikaze 137.195.143.125:9582:0
+replicating threads: 110
+kamikaze 137.195.143.125:34996:0
+replicating threads: 109
+kamikaze 137.195.143.125:38109:0
+replicating threads: 101
+kamikaze 137.195.143.125:27936:0
+replicating threads: 96
+kamikaze 137.195.143.125:31895:0
+replicating threads: 95
+kamikaze 137.195.143.125:9764:0
+replicating threads: 88
+kamikaze 137.195.143.125:34240:0
+replicating threads: 82
+kamikaze 137.195.143.125:35747:0
+replicating threads: 79
+sumeuler-pushMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 978.05
+Chaos monkey deaths at (seconds): [35,38,41,43,46,51]
+kamikaze 137.195.143.125:15406:0
+replicating threads: 96
+kamikaze 137.195.143.125:17341:0
+replicating threads: 93
+kamikaze 137.195.143.125:13895:0
+replicating threads: 92
+kamikaze 137.195.143.125:28077:0
+replicating threads: 94
+kamikaze 137.195.143.125:15839:0
+replicating threads: 88
+kamikaze 137.195.143.125:12783:0
+replicating threads: 85
+sumeuler-pushMapFT result: 3039650754
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 634.29

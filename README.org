@@ -1,0 +1,123 @@
+
+*** Repository Contributions
+
+This repository contains the sources for the PhD thesis /Reliable
+Massively Parallel Symbolic Computing: Fault Tolerance for a
+Distributed Haskell/, authored by Robert Stewart. The thesis is
+written with emacs [[http://orgmode.org/][org-mode]]. The file ~thesis.org~ is compiled to
+LaTeX, which is compiled to a PDF. The repository is organised as
+follows:
+
+#+BEGIN_SRC
+.
+|-- crest
+|   `-- crest.pdf          # Heriot-Watt University crest
+|-- hwthesis.cls           # Heriot-Watt University LaTeX style file
+|-- img                    # image sources (xfig and dia) in thesis
+|-- Makefile               # make file for compiling images, plots and PDF
+|-- mkImages.sh            # script used in Makefile for compiling images
+|-- mkPlots.sh             # script used in Makefile for generating plots
+|-- msc
+|   `-- msc.sty            # style file for producing message sequence charts
+|-- README.org             # repository readme file
+|-- results                # all runtime results reported in thesis
+|-- spin_model
+|   |-- hdph_scheduler.pml # Promela model described in validation chapter
+|   `-- splitgraphs.gvpr
+|-- thesis.bib             # bibliography
+|-- thesis-commands.sty    # LaTeX commands used in thesis
+`-- thesis.org             # the thesis
+#+END_SRC
+
+*** Compilation
+
+To compile, run ~make~ in your repository clone. This will
+generate a PDF file ~thesis.pdf~. All software dependencies are listed
+by running ~make help~. There are a few prerequisites for a successful
+PDF compilation.
+
+1. Most ~.sty~ files need to be installed manually with ~make
+   sty~. This needs the be run only once, but must be run before
+   ~make~. 
+2. A ~hwthesis~ ~org-latex-classes~ entry needs to be added to the
+   user initialisation. The following org-model setup is needed
+   alongside the ~hwthesis.cls~ file. This is usually added to
+   ~$HOME/.emacs~ or can be embedded in to the ~thesis.org~ file in an
+   ~eval~ region.
+
+#+BEGIN_SRC
+(require 'ox-latex)
+(add-to-list 'org-latex-classes
+             '("phd"
+               "\\documentclass{hwthesis}"
+               ("\\chapter{%s}" . "\\chapter*{%s}")
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+               ("\\paragraph{%s}" . "\\paragraph*{%s}")
+               ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+#+END_SRC
+
+*** Thesis Abstract
+
+As the number of cores in manycore systems grows exponentially, the
+number of failures is also predicted to grow exponentially. Hence
+massively parallel computations must be able to tolerate
+faults. Moreover new approaches to language design and system
+architecture are needed to address the resilience of massively
+parallel heterogeneous architectures.
+
+Symbolic computation has underpinned key advances in Mathematics and
+Computer Science, for example in number theory, cryptography, and
+coding theory. Computer algebra software systems facilitate symbolic
+mathematics. Developing these at scale has its own distinctive set of
+challenges, as symbolic algorithms tend to employ complex irregular
+data and control structures. SymGridParII is a middleware for parallel
+symbolic computing on massively parallel High Performance Computing
+platforms. A key element of SymGridParII is a domain specific language
+(DSL) called Haskell Distributed Parallel Haskell (HdpH). It is
+explicitly designed for scalable distributed-memory parallelism, and
+employs work stealing to load balance dynamically generated irregular
+task sizes.
+
+To investigate providing scalable fault tolerant symbolic computation
+we design, implement and evaluate a reliable version of HdpH,
+HdpH-RS. Its reliable scheduler detects and handles faults, using task
+replication as a key recovery strategy. The scheduler supports load
+balancing with a fault tolerant work stealing protocol. The reliable
+scheduler is invoked with two fault tolerance primitives for implicit
+and explicit work placement, and 10 fault tolerant parallel skeletons
+that encapsulate common parallel programming patterns. The user is
+oblivious to many failures, they are instead handled by the scheduler.
+
+An operational semantics describes small-step reductions on states. A
+simple abstract machine for scheduling transitions and task evaluation
+is presented. It defines the semantics of supervised futures, and the
+transition rules for recovering tasks in the presence of failure. The
+transition rules are demonstrated with a fault-free execution, and
+three executions that recover from faults.
+
+The fault tolerant work stealing has been abstracted in to a Promela
+model. The SPIN model checker is used to exhaustively search the
+intersection of states in this automaton to validate a key resiliency
+property of the protocol. It asserts that an initially empty
+supervised future on the supervisor node will eventually be full in
+the presence of all possible combinations of failures.
+
+The performance of HdpH-RS is measured using five
+benchmarks. Supervised scheduling achieves a speedup of 757 with
+explicit task placement and 340 with lazy work stealing when executing
+Summatory Liouville up to 1400 cores of a HPC architecture. Moreover,
+supervision overheads are consistently low scaling up to 1400
+cores. Low recovery overheads are observed in the presence of frequent
+failure when lazy on-demand work stealing is used. A Chaos Monkey
+mechanism has been developed for stress testing resiliency with random
+failure combinations. All unit tests pass in the presence of random
+failure, terminating with the expected results.
+
+*** About the author
+
+Feel free to contact the author with feedback.
+
+- Email :: R.Stewart@hw.ac.uk
+- WWW :: [[http://www.macs.hw.ac.uk/~rs46/][http://www.macs.hw.ac.uk/~rs46/]]

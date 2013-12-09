@@ -1,0 +1,186 @@
+
+Chaos monkey deaths at (seconds): [32,37,44,46,48,50,52,57]
+kamikaze 137.195.143.125:9162:0
+replicating sparks: 2
+kamikaze 137.195.143.125:31558:0
+replicating sparks: 2
+kamikaze 137.195.143.125:8291:0
+replicating sparks: 2
+kamikaze 137.195.143.125:18436:0
+replicating sparks: 2
+kamikaze 137.195.143.125:37608:0
+replicating sparks: 2
+kamikaze 137.195.143.125:17497:0
+replicating sparks: 2
+kamikaze 137.195.143.125:20358:0
+replicating sparks: 2
+kamikaze 137.195.143.125:23265:0
+replicating sparks: 2
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 85.05
+Chaos monkey deaths at (seconds): [18,27,41]
+kamikaze 137.195.143.125:9446:0
+replicating sparks: 2
+kamikaze 137.195.143.125:22957:0
+replicating sparks: 2
+kamikaze 137.195.143.125:35779:0
+replicating sparks: 2
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 61.60
+Chaos monkey deaths at (seconds): [19,30,39,41,54,59,59]
+kamikaze 137.195.143.125:36399:0
+replicating sparks: 2
+kamikaze 137.195.143.125:25098:0
+replicating sparks: 2
+kamikaze 137.195.143.125:21392:0
+replicating sparks: 2
+kamikaze 137.195.143.125:8827:0
+replicating sparks: 2
+kamikaze 137.195.143.125:9314:0
+replicating sparks: 2
+kamikaze 137.195.143.125:34250:0
+kamikaze 137.195.143.125:19161:0
+replicating sparks: 2
+replicating sparks: 2
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 76.21
+Chaos monkey deaths at (seconds): [8,11]
+kamikaze 137.195.143.125:38448:0
+replicating sparks: 2
+kamikaze 137.195.143.125:8014:0
+replicating sparks: 2
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 62.82
+Chaos monkey deaths at (seconds): [8,9,24,28,32,34,40,57]
+kamikaze 137.195.143.125:20515:0
+replicating sparks: 2
+kamikaze 137.195.143.125:22794:0
+replicating sparks: 2
+kamikaze 137.195.143.125:27456:0
+replicating sparks: 2
+kamikaze 137.195.143.125:21386:0
+replicating sparks: 2
+kamikaze 137.195.143.125:30368:0
+replicating sparks: 2
+kamikaze 137.195.143.125:20007:0
+replicating sparks: 2
+kamikaze 137.195.143.125:27466:0
+replicating sparks: 2
+kamikaze 137.195.143.125:30938:0
+replicating sparks: 2
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+parMapFT: 132.70
+Chaos monkey deaths at (seconds): [3,8,8,12,22,26,26,29,55]
+kamikaze 137.195.143.125:8038:0
+replicating threads: 50
+kamikaze 137.195.143.125:24953:0
+kamikaze 137.195.143.125:26876:0
+replicating threads: 45
+replicating threads: 44
+kamikaze 137.195.143.125:36660:0
+replicating threads: 39
+kamikaze 137.195.143.125:25208:0
+replicating threads: 26
+kamikaze 137.195.143.125:38372:0
+kamikaze 137.195.143.125:28751:0
+replicating threads: 23
+replicating threads: 21
+kamikaze 137.195.143.125:8890:0
+replicating threads: 20
+kamikaze 137.195.143.125:33249:0
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 287.09
+Chaos monkey deaths at (seconds): [1]
+kamikaze 137.195.143.125:9597:0
+replicating threads: 53
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 63.29
+Chaos monkey deaths at (seconds): [10,59]
+kamikaze 137.195.143.125:8262:0
+replicating threads: 41
+kamikaze 137.195.143.125:18819:0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 68.49
+Chaos monkey deaths at (seconds): [13,15,18,51]
+kamikaze 137.195.143.125:38059:0
+replicating threads: 37
+kamikaze 137.195.143.125:39567:0
+replicating threads: 36
+kamikaze 137.195.143.125:26164:0
+replicating threads: 33
+kamikaze 137.195.143.125:18954:0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 124.95
+Chaos monkey deaths at (seconds): [13,24,42,51]
+kamikaze 137.195.143.125:35525:0
+replicating threads: 38
+kamikaze 137.195.143.125:27029:0
+replicating threads: 28
+kamikaze 137.195.143.125:25595:0
+replicating threads: 12
+kamikaze 137.195.143.125:20297:0
+replicating threads: 2
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+summatoryLiouville-parMapFT result: -7608
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+pushMapFT: 105.87
