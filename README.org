@@ -4,7 +4,7 @@ This repository contains the sources for the PhD thesis "Reliable
 Massively Parallel Symbolic Computing: Fault Tolerance for a
 Distributed Haskell", authored by Robert Stewart. The thesis is
 written with emacs [[http://orgmode.org/][org-mode]]. The file ~thesis.org~ is compiled to
-LaTeX, which is compiled to a PDF. A compiled PDF is available [[http://www.macs.hw.ac.uk/~rs46/phd-thesis.html][here]].
+LaTeX, which is compiled to a PDF. A compiled PDF is available [[http://www.macs.hw.ac.uk/~rs46/phd-thesis.html][here]]. The HdpH-RS Haskell implementation described in Chapter 5 is [[https://github.com/robstewart57/hdph-rs][on GitHub]].
 
 The repository is organised as follows:
 
