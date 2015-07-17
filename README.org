@@ -4,11 +4,13 @@ This repository contains the sources for the PhD thesis "Reliable
 Massively Parallel Symbolic Computing: Fault Tolerance for a
 Distributed Haskell", authored by Robert Stewart. The thesis is
 written with emacs [[http://orgmode.org/][org-mode]]. The file ~thesis.org~ is compiled to
-LaTeX, which is compiled to a PDF. A compiled PDF is available [[http://www.macs.hw.ac.uk/~rs46/phd-thesis.html][here]]. The HdpH-RS Haskell implementation described in Chapter 5 is [[https://github.com/robstewart57/hdph-rs][on GitHub]].
+LaTeX, which is compiled to a PDF. A compiled PDF is available
+[[http://www.macs.hw.ac.uk/~rs46/phd-thesis.html][here]] The HdpH-RS Haskell implementation described in Chapter 5 is [[https://github.com/robstewart57/hdph-rs][on
+GitHub]].
 
 The repository is organised as follows:
 
-#+BEGIN_SRC
+#+BEGIN_EXAMPLE
 .
 |-- crest
 |   `-- crest.pdf          # Heriot-Watt University crest
@@ -27,7 +29,7 @@ The repository is organised as follows:
 |-- thesis.bib             # bibliography
 |-- thesis-commands.sty    # LaTeX commands used in thesis
 `-- thesis.org             # the thesis
-#+END_SRC
+#+END_EXAMPLE
 
 *** Compilation
 
@@ -45,7 +47,7 @@ PDF compilation.
    ~$HOME/.emacs~ or can be embedded in to the ~thesis.org~ file in an
    ~eval~ region.
 
-#+BEGIN_SRC
+#+BEGIN_SRC elisp
 (require 'ox-latex)
 (add-to-list 'org-latex-classes
              '("phd"
@@ -114,6 +116,20 @@ failure when lazy on-demand work stealing is used. A Chaos Monkey
 mechanism has been developed for stress testing resiliency with random
 failure combinations. All unit tests pass in the presence of random
 failure, terminating with the expected results.
+
+*** Summarising Publication
+
+This PhD thesis was condensed into a paper accepted for publication.
+
+*Transparent Fault Tolerance for Scalable Functional Computation*
+Robert Stewart (Heriot-Watt University), Patrick Maier (University of
+Glasgow) & Phil Trinder (University of Glasgow). Accepted for
+publication in /The Journal of Functional Programming/ 2015, published
+by Cambridge University Press.
+
+A paper PDF, the abstract and a supporting open acces dataset archive
+is [[http://www.macs.hw.ac.uk/~rs46/jfp-2015.html][here]].
+
 
 *** About the author
 
