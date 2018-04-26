@@ -1,0 +1,68 @@
+
+%% separated, uses PSTricks.
+%% compile: $ xelatex ft-fishing.ignore
+%% crop:    $ pdfcrop ft-fishing.pdf
+%% 
+%% In latex document, input graphics file 'ft-fishing-crop.pdf'
+
+\documentclass{article}
+\usepackage{../../../msc/msc}
+\usepackage{tikz}
+
+% do not include page numbers (for pdfcrop)
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\newcommand*\spark[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+
+\begin{document}
+
+\begin{msc}{Successful Work Stealing}{}
+\setmscvalues{small}
+\setlength{\instdist}{2.5\instdist}
+\setlength{\instwidth}{1.3\instwidth}
+\setlength{\envinstdist}{1.2\envinstdist}
+\setlength{\topheaddist}{0.8\topheaddist}
+\setlength{\bottomfootdist}{0.4\bottomfootdist}
+\setlength{\levelheight}{0.8\levelheight}
+\setlength{\firstlevelheight}{0.1\firstlevelheight}
+\drawframe{no}
+\drawtitle{}
+
+\declinst{n1}{Node A}{supervisor}
+\declinst{n2}{Node B}{victim}
+\declinst{n3}{Node C}{thief}
+\nextlevel
+\action*{OnNode B}{n1}
+\msccomment{holds \spark{0}}{n2}
+\nextlevel
+\nextlevel
+\mess{FISH C}{n3}{n2}
+\regionstart{suspension}{n3}
+\regionstart{activation}{n2}
+\nextlevel
+\mess{REQ i0 r0 B C}{n2}{n1}
+\regionstart{activation}{n1}
+\regionstart{suspension}{n2}
+\nextlevel
+\nextlevel
+\mess{AUTH C}{n1}{n2}
+\regionend{n1}
+\regionstart{activation}{n2}
+\nextlevel
+\action*{InTransition B C}{n1}
+\mess{SCHEDULE \spark{0} B}{n2}{n3}
+\regionend{n2}
+\regionstart{activation}{n3}
+\nextlevel
+\nextlevel
+\mess{ACK i0 r0 C}{n3}{n1}
+\regionend{n3}
+\nextlevel
+\action*{OnNode C}{n1}
+\nextlevel
+\nextlevel
+\end{msc}
+
+\end{document}

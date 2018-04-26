@@ -1,0 +1,69 @@
+%% separated, uses PSTricks.
+%% compile: $ xelatex ft-fishing.ignore
+%% crop:    $ pdfcrop ft-fishing.pdf
+%% 
+%% In latex document, input graphics file 'ft-fishing-crop.pdf'
+
+\documentclass{article}
+\usepackage{../../../msc/msc}
+\usepackage{tikz}
+
+% do not include page numbers (for pdfcrop)
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\newcommand*\spark[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+
+\begin{document}
+
+\begin{msc}{Scheduling Request Denied}{}
+\setmscvalues{small}
+\setlength{\instdist}{2.5\instdist}
+\setlength{\instwidth}{1.3\instwidth}
+\setlength{\envinstdist}{1.2\envinstdist}
+\setlength{\topheaddist}{0.8\topheaddist}
+\setlength{\bottomfootdist}{0.4\bottomfootdist}
+\setlength{\levelheight}{0.8\levelheight}
+\setlength{\firstlevelheight}{0.1\firstlevelheight}
+\drawframe{no}
+\drawtitle{}
+
+\declinst{n1}{Node A}{supervisor}
+\declinst{n2}{Node B}{victim}
+\declinst{n3}{Node C}{thief$^1$}
+\declinst{n4}{Node D}{thief$^2$}
+\regionstart{suspension}{n3}
+\nextlevel
+\msccomment{holds \spark{0}}{n2}
+\action*{InTransition B C}{n1}
+\nextlevel
+\nextlevel
+\nextlevel
+\mess{SCHEDULE \spark{0} B}{n2}{n3}
+\regionstart{activation}{n3}
+\nextlevel
+\mess{FISH D}{n4}{n3}
+\regionstart{suspension}{n4}
+\regionstart{activation}{n3}
+\nextlevel
+\mess{REQ i0 r0 C D}{n3}{n1}
+\regionstart{activation}{n1}
+\regionstart{suspension}{n3}
+\nextlevel
+\nextlevel
+\mess{DENIED D}{n1}{n3}
+\regionstart{activation}{n3}
+\regionend{n1}
+\nextlevel
+\mess{NOWORK}{n3}{n4}
+\regionend{n4}
+\nextlevel
+\mess{ACK i0 r0 C}{n3}{n1}
+\regionend{n3}
+\nextlevel
+\action*{OnNode C}{n1}
+\nextlevel
+\end{msc}
+
+\end{document}
